@@ -1,0 +1,21 @@
+.rank-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 14.6vh;
+  background: url('../../assets//images/rank-background.png') no-repeat 100% / 100% 100%;
+
+  .rank-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 80.72vw;
+    height: 74.706vh;
+  }
+}
