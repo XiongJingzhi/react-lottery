@@ -1,7 +1,6 @@
 import { useHistory } from "react-router-dom"
 import * as React from 'react';
 import subtitle from '../assets/images/welcome-subtitle.png';
-import suptitle from '../assets/images/welcome-suptitle.png';
 
 export const Welcome = (props) => {
   const history = useHistory() 
@@ -30,7 +29,7 @@ const styles = {
     transform: 'translateX(-50%)',
     width: '80vw',
     height: '15.99vw',
-    background: 'url(' + suptitle + ') no-repeat 100% / cover'
+    background: 'url("http://cdn.bgwiki.cn//lottery/welcome-suptitle.png") no-repeat 100% / cover'
   },
   sub: {
     position: 'absolute',

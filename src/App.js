@@ -4,11 +4,12 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
+import './App.css'
 import { Welcome } from './views/Welcome'
 import { Ready } from './views/Ready/Ready'
-import { Countdown } from './views/Countdown'
+import { Countdown } from './views/Countdown/Countdown'
 import { Rank } from './views/Rank/Rank'
-import { Result } from './views/result/Result'
+import { Result } from './views/Result/Result'
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
 
 const styles = {
   appStyle: {
-    background: `url(${require('./assets/images/background.png')}) no-repeat 100% / cover`,
+    background: `url(http://cdn.bgwiki.cn/lottery/background.png) no-repeat 100% / cover`,
     height: '100vh',
     width: '100vw'
   }

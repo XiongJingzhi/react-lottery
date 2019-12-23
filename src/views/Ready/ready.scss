@@ -1,3 +1,67 @@
 .animate {
   transition: all .8s;
 }
+
+.ready {
+  height: 100vh;
+  width: 100vw;
+  position: relative
+}
+
+.ready-left {
+  position: absolute;
+}
+
+.ready-title {
+  position: absolute;
+  top: 18.4vh;
+  left: 12.29vw;
+  width: 32.13541vw;
+  height: 3.177vw;
+  background: url('../../assets//images/ready-title.png') no-repeat 100% / cover;
+}
+
+.qrcode {
+  position: absolute;
+  top: 30.73vh;
+  left: 7.916vw;
+  width: 40.73vw;
+  height: 24.1666vw;
+  background: url('../../assets//images/qrcode.png') no-repeat 100% / cover;
+}
+
+.ready-right {
+  position: absolute;
+  top: 20.396vh;
+  right: 13.02vw;
+  width: 32vw;
+}
+
+.ready-row {
+  display: flex;
+  align-items: center;
+
+  .user-container+.user-container {
+    flex: 1;
+  }
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  width: (345vw/19.2);
+}
+
+.avatar {
+  display: block;
+  width: 2.6vw;
+  height: 2.6vw;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+}
+
+.name {
+  font-size: 27px;
+  color: #FFFFFF;
+  margin-left: 1vw;
+}

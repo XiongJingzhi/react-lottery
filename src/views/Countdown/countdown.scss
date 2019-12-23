@@ -1,0 +1,24 @@
+.countdown-welcome {
+  height: 100vh;
+  width: 100vw;
+  position: relative
+}
+
+.countdown-sup {
+  position: absolute;
+  top: 19.21vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 43.33vw;
+  height: 5.208vw;
+  background: url('../../assets/images/countdown-title.png') no-repeat 100% / cover;
+}
+
+.countdown-sub {
+  position: absolute;
+  top: 41.9423vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40.833vw;
+  height: 7.86458vw;
+}
